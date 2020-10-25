@@ -1,0 +1,9 @@
+div#iconocopiar #copiar{
+margin-right: 250px;
+}
+
+div#copiar {
+    font-size: 20px;
+    background-color: #1370ad;
+    color: #ffffff;
+}
