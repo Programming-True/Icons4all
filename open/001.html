@@ -48,18 +48,17 @@
 
   <section>
 
-    <div class="row">
-      <div class="col-sm-8">
-      </div>
-      <div class="col-sm">
+        <div id="mostrar-icono">
+          <img src="../icons/Icons4all/pack1/001-home.svg">
+          <h1>001-home</h1>
+          <div id="iconocopiar">
+              <div id="copiar">
+                <p id="valor">&lt;img&nbsp;src="https://icons4all.cf/icons/Icons4all/pack1/001-home.svg"&gt;</p>
+              </div>
 
-        <div id="iconocopiar">
-          <div id="copiar">/icons/Icons4all/pack1/001-home.svg</div>
-          <button class="btn_copiar btn-primary" data-clipboard-action="copy" data-clipboard-target="div#copiar">Copy</button>
-
+            <button class="btn_copiar_texto btn-primary" data-clipboard-action="copy" data-clipboard-target="p#valor">Copy</button>
+          </div>
         </div>
-      </div>
-    </div>
 
 
 </section>
@@ -71,7 +70,7 @@
 
     <!-- Instantiate clipboard -->
     <script>
-    var clipboard = new ClipboardJS('.btn_copiar');
+    var clipboard = new ClipboardJS('.btn_copiar_texto');
 
     clipboard.on('success', function(e) {
         console.log(e);

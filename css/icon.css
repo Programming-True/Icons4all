@@ -1,9 +1,33 @@
-div#iconocopiar #copiar{
-margin-right: 250px;
-}
-
-div#copiar {
-    font-size: 20px;
-    background-color: #1370ad;
+div#mostrar-icono #iconocopiar #copiar{
+    font-size: 29px;
+    background-color: #727272;
     color: #ffffff;
-}
+    border-radius: 20px;
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    }
+    
+    div#mostrar-icono #iconocopiar button{
+        font-size: 25px;
+        border-radius: 20px;
+        margin: 1%;
+        }
+    
+    div#mostrar-icono img{
+        min-width: 150px;
+        width: 30%;
+        max-width: 200px;
+        margin: 50px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 20%;
+    }
+    
+    div#mostrar-icono{
+        margin: 2%;
+        background-color: #e0e0e0;
+        align-content: center;
+        text-align: center;
+        border-radius: 40px;
+    }
