@@ -14,3 +14,11 @@ section {
   text-align: center;
   vertical-align: middle;
 }
+th,td {
+  padding: 0.4rem !important;
+}
+div.tablaiconos {
+  box-shadow: 10px 10px 8px #c5c2c2;
+  border: 2px solid black;
+  border-radius: 10px;
+}
